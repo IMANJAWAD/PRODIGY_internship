@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iman Jawad - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #a8dadc;
+            color: #000000;
+        }
+
+        header, footer {
+            background-color: #fca311;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: inside square;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .sub, .address, .address1 {
+            text-align: center;
+        }
+
+        .about-me, .experience, .education, .achievements, .volunteer {
+            padding: 20px;
+            background-color: #ffffff;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .job, .degree {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #14213d;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            text-decoration: underline;
+        }
+
+        h3 {
+            color: #fca311;
+        }
+
+        input[type="submit"] {
+            background-color: #fca311;
+            color: #ffffff;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: 0 auto;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #e76f51;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Iman Jawad</h1>
+    <p class="sub">Undergraduate Software Engineer</p>
+</header>
+<div style="background-color: #fca311; height: 10px;"></div>
+<section class="about-me">
+    <h2>About Me</h2>
+    <p>Through collaboration and teamwork, I aim to contribute my expertise to meaningful projects that positively
+        impact society. With a commitment to lifelong learning, I look forward to making a significant mark in the
+        world of software engineering.</p>
+    <h3>Key Competencies</h3>
+    <ul>
+        <li>C++</li>
+        <li>Graphic Designing</li>
+        <li>Python</li>
+        <li>Data Structures</li>
+        <li>Agile Development</li>
+        <li>Communication</li>
+        <li>Strong Interpersonal Skills</li>
+        <li>Financial and Cost Accounting</li>
+    </ul>
+</section>
+<section class="experience">
+    <h2>Experience</h2>
+    <div class="job">
+        <h3>Graphic Designer at Software Innovators Club (SIC)</h3>
+        <p>Creating visually compelling and impactful designs, translating concepts into aesthetically pleasing visual
+            solutions while meeting deadlines.</p>
+        <p>Ned University of Engineering and Technology</p>
+        <p>Duration: 2023 - Present</p>
+    </div>
+    <div class="job">
+        <h3>C++ Virtual Internship</h3>
+        <p>Successfully completed challenging C++ programming tasks, blending technical skill with creative
+            problem-solving, reflecting a passionate commitment to excellence and innovation in development.</p>
+        <p>Ned University of Engineering and Technology</p>
+        <p>Duration: 01/09/2023 - 30/09/2023</p>
+    </div>
+</section>
+<section class="education">
+    <h2>Education</h2>
+    <div class="degree">
+        <h3>Bachelor of Science in Software Engineering</h3>
+        <p>Ned University of Engineering and Technology, Karachi, Pakistan</p>
+        <p>Duration: 2022 - 2026</p>
+    </div>
+    <div class="degree">
+        <h3>A levels CIE</h3>
+        <p>The City School GAL, Karachi, Pakistan</p>
+        <p>Duration: 2020 - 2022</p>
+    </div>
+    <div class="degree">
+        <h3>O levels IGCSE</h3>
+        <p>Pakistan School Muscat, Muscat, Oman</p>
+        <p>Duration: 2017 - 2019</p>
+    </div>
+</section>
+<section class="achievements">
+    <h2>Achievements</h2>
+    <ul>
+        <li>High Achiever - Ned University of Engineering and Technology</li>
+        <li>Position Holder - The City School GAL</li>
+        <li>IBA Grads Meritorious Student - Habib University</li>
+    </ul>
+</section>
+<section class="volunteer">
+    <h2>Volunteer Experience</h2>
+    <p>Volunteered and donated to a Thalassemia Center, offering both compassionate support and financial
+        contributions for the well-being of those affected.</p>
+    <p>Organised Codephere Competition 2023 as a member of Software Innovators Club.</p>
+</section>
+<footer>
+    <p class="address">0345-9876879 | imanjawad2004@gmail.com | <a
+                href="https://www.linkedin.com/in/iman-jawad-a145a4262">LinkedIn</a></p>
+    <p class="address1">Rafi Premier Residency B-506</p>
+</footer>
+<div style="background-color: #fca311; height: 10px;"></div>
+</body>
+</html>
